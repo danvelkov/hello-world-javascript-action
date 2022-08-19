@@ -26,6 +26,6 @@ function getAllVariants() {
       i += 5;
       total -= 5;
       console.log(idArray)
-      console.log(idArray.length)
+      console.log(idArray.length, "jhgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg\n\n\n\n")
   } while (total > 952)
 }
