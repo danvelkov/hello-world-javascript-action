@@ -26,6 +26,10 @@ function getAllVariants() {
       i += 5;
       total -= 5;
       console.log(idArray)
-      console.log(idArray.length, "jhgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg\n\n\n\n")
+      console.log(idArray.length)
   } while (total > 952)
+	  
+  core.setOutput("time", idArray);
+    const payload = JSON.stringify(github.context.payload, undefined, 2)
+  console.log(`The event payload: ${payload}`);
 }
